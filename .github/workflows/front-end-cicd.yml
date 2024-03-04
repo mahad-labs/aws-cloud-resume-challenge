@@ -19,4 +19,4 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWSACCESSKEYID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWSSECRETACCESSKEYID }}
           AWS_REGION: 'us-east-1'
-          SOURCE_DIR: 'aws-cloud-resume-challenge'
+          SOURCE_DIR: 'website'
