@@ -1,3 +1,3 @@
-access_key = "${{ "secrets.AWSACCESSKEY" }}"
+access_key = "${AWSACCESSKEY}"
 
-secret_key = "${{ "secrets.AWSSECRETACCESSKEY" }}"
+secret_key = "${AWSSECRETACCESSKEY}"
