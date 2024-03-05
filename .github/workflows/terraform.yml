@@ -65,6 +65,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
 
+    - name: Set AWS credentials as environment variables
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWSACCESSKEY }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWSSECRETACCESSKEY }}
+
     - name: Setup Terraform
       uses: hashicorp/setup-terraform@v1
       with:
