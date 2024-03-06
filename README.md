@@ -12,5 +12,5 @@ More info here:
 https://cloudresumechallenge.dev/docs/the-challenge/aws/
 
 Future improvements:
-Implementing Github Actions workflow (.github/workflows/terraform.yml) that creates the dynamodb table, lambda function, s3 bucket and other cloud infrastructure instead of creating it from Terraform on my laptop.
+Implementing Github Actions workflow (.github/workflows/terraform.yml currently not working) that creates the dynamodb table, lambda function, s3 bucket and other cloud infrastructure instead of creating it from Terraform on my laptop.
 Adding Testing for the lambda function, javascript code and other files.
